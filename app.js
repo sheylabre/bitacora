@@ -24,7 +24,7 @@ window.addEventListener("load",function(){
         divConten.insertBefore(textarea, divConten.children[1]);
 
         var boton = document.createElement("button");
-        boton.textContent = "hola";
+        boton.textContent = "Enviar";
         divConten.insertBefore(boton, divConten.children[2]);
 
     boton.addEventListener("click",function(e){
@@ -68,7 +68,7 @@ window.addEventListener("load",function(){
         input1.classList.add("tituloo");
 
         var boton1 = document.createElement("button");
-        boton1.textContent = "hola";
+        boton1.textContent = "Enviar";
         divConten1.insertBefore(boton1, divConten1.children[2]);
 
     boton1.addEventListener("click",function(e){
@@ -111,7 +111,7 @@ window.addEventListener("load",function(){
         inputsegundo2.classList.add("tituloo");
 
         var boton2 = document.createElement("button");
-        boton2.textContent = "hola";
+        boton2.textContent = "Enviar";
         divConten2.insertBefore(boton2, divConten2.children[2]);
 
     boton2.addEventListener("click",function(e){
@@ -152,7 +152,7 @@ window.addEventListener("load",function(){
         divConten3.insertBefore(textarea3, divConten3.children[0]);
 
         var boton3 = document.createElement("button");
-        boton3.textContent = "hola";
+        boton3.textContent = "Enviar";
         divConten3.insertBefore(boton3, divConten3.children[1]);
 
     boton3.addEventListener("click",function(e){
